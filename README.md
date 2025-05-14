@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 ## 📦 Project Structure
-- `YOLOModel.py`: Core implementation with YOLOModel class
+- `yolo_model.py`: Core implementation with YoloLicensePlateDetector class
 - `README.md`: Project documentation
 - `requirements.txt`: Python dependencies
 - `data.yaml`: Config for Yolo train
@@ -31,12 +31,12 @@ pip install -r requirements.txt
 
 ### Demo Mode (Video Processing)
 ```
-python YOLOModel.py --mode demo --model_path ./results/yolo_training/weights/best.pt --license_plate_class 0 --video_path ./videos.mp4
+python yolo_model.py --mode demo --model_path ./results/yolo_training/weights/best.pt --license_plate_class 0 --video_path ./videos.mp4
 ```
 
 ### Training Mode
 ```
-python YOLOModel.py --mode train --model_path yolov8n.pt --config_path data.yaml --results_path results --epochs 150 --batch_size 16 --img_size 720
+python yolo_model.py --mode train --model_path yolov8n.pt --config_path data.yaml --results_path results --epochs 150 --batch_size 16 --img_size 720
 ```
 
 ## ⚙️ Parameters
