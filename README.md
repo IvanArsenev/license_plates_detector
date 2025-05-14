@@ -73,6 +73,9 @@ python yolo_model.py --mode train --model_path yolov8n.pt --config_path data.yam
 2023-11-15 14:31:22,789 - INFO - Final count of unique license plates: 8
 ```
 
+## 🖼️ Dataset
+Open dataset to download: `https://app.roboflow.com/etbx/license_plates-fepuu/1`
+
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
