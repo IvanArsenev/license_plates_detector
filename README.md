@@ -10,6 +10,12 @@ This project provides a robust solution for license plate detection and model tr
 - **Performance Metrics**: Logs frame-by-frame statistics and total unique plate count
 
 ## 🛠️ Installation
+0. Install CUDA to run train in GPU
+```
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/***
+```
+*** - version of CUDA (12.8 = 128)
+
 1. Clone the repository:
 ```
 git clone https://github.com/IvanArsenev/license_plates_detector
