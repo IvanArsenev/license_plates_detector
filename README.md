@@ -45,6 +45,10 @@ python yolo_model.py --mode demo --model_path ./results/yolo_training/weights/be
 python yolo_model.py --mode train --model_path yolov8n.pt --config_path data.yaml --results_path results --epochs 150 --batch_size 16 --img_size 720
 ```
 
+## 🔮 Preview of demo mode
+
+![Preview](./docs/presentation.gif)
+
 ## ⚙️ Parameters
 
 ### Demo Mode
